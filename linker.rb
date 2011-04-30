@@ -3,7 +3,7 @@
 class Config
   attr_reader :config_files, :home, :backup_config_dir, :configs_dir
   def initialize
-    @config_files = %w[unison bashrc bash_history bash_logout bash_profile vim/vimrc vim/gvimrc]
+    @config_files = %w[unison bashrc bash_history bash_logout bash_profile vim/vimrc vim/gvimrc vim]
     @home = File.expand_path('~') + '/'
     @configs_dir = @home + '.configs/'
     @backup_config_dir = @home + 'configs_bak/'
