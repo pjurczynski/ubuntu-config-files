@@ -1,204 +1,3 @@
-cd /home/krol/Programs/Unison/
-ls
-mv unison-2.40.61/* ./
-ls
-rmdir unison-2.40.61/
-ls unison-2.40.61/
-ll unison-2.40.61/
-rm -R unison-2.40.61/
-ll
-cat TODO.txt 
-HEAD TODO.txt 
-cat TODO.txt | HEAD
-TAIL
-ll
-l
-./INSTALL
-ll
-ll | grep INSTALL
-ll
-make
-cd ../../Downloads/
-ls
-tar -xvf unison-2.40.61.tar.gz 
-cp unison-2.40.61/.depend /home/krol/Programs/Unison/
-cd /home/krol/Programs/Unison/
-make
-sudo apt-get install unison-gtk
-ipconfig
-ifconfig
-man iwconfig
-man -k wifi scan
-man -k ssid
-man -k essid
-apropos essid
-apropos network
-ping onet.pl
-exit
-sudo /etc/cifspw
-sudo gvim /etc/cifspw
-sudo chmod 600 /etc/cifspw 
-sudo gvim /etc/fstab
-sudo mount -a
-sudo gvim /etc/fstab
-sudo mount -a
-sudo mkdir /mnt/krol
-sudo mkdir /mnt/krolowa
-sudo mkdir /mnt/music
-sudo mkdir /mnt/shared
-sudo mount -a
-sudo gvim /etc/fstab
-sudo mount -a
-cd //merstzik-pc
-ping merstzik-pc
-sudo mount -a
-sudo gvim /etc/host
-sudo mount -a
-dmesg | tail
-sudo apt-get install smbfs
-sudo mount -a
-l /mnt/krol
-l
-cd /mnt/krol/My\ Pictures/
-ll
-cd ..
-ll
-cd ../shared/
-ll
-cd zdjecia/
-ll
-man ln
-sudo ln -d 
-ln --help
-more ln --helkp
-more ln --help
-man ln
-sudo ln -d /media/Data/ /data
-sudo ln -s /media/Data/ /data
-sudo apt-get update
-sudo apt-cache search launchy
-sudo apt-get launchy
-sudo apt-get install launchy
-l ~/Documents/
-sudo gvim /etc/default/grub 
-sudo update-grub
-exit
-cd Downloads/
-mkdir ../src
-tar -xvf powertop-1.13.tar.gz ../src
-tar -xvf powertop-1.13.tar.gz ~/src
-tar -xvf powertop-1.13.tar.gz ~/src/
-tar -zxf powertop-1.13.tar.gz ~/src/
-tar -zxf powertop-1.13.tar.gz
-l
-mv powertop-1.13 ~/src
-cd /home/krol/src/powertop-1.13/
-make
-l
-make
-make install
-cd ../
-rm -R powertop-1.13/
-cd ..
-sudo apt-get install powertop
-powertop
-sudo powertop
-ll /data
-l /data 
-cd /data
-cd /
-ll
-l
-cd /media/
-ls
-cd /
-ll
-cd /media/Data/Music/
-cd /mnt/music
-ls
-ll
-gvim /etc/fstab 
-sudo gvim /etc/fstab 
-sudo mount -a
-mkdir /mnt/photos
-sudo mkdir /mnt/photos
-sudo mount -a
-man ulimit
-sudo mount -a
-cd ../
-ls /media/Data/Photos/
-ls /media/Data/Photos/2004
-ls /media/Data/Photos/2004/wielkanoc_Witki/
-ls /media/Data/Photos/2004/Imprezka\ u\ Damiana/
-exit
-ls /media/Data/Photos/2007/50tka/50ta_rocznica_slubu_dziadki/
-ls /media/Data/Photos/2007/50tka/50ta_rocznica_slubu_dziadki/P108
-ls /media/Data/Photos/2007/50tka/50ta_rocznica_slubu_dziadki/ | grep P108100
-ls /media/Data/Photos/2007/50tka/50ta_rocznica_slubu_dziadki/ | grep P108100*
-ls /media/Data/Photos/2007/50tka/50ta_rocznica_slubu_dziadki/ | grep P108100.*
-ls /media/Data/Photos/2007/50tka/50ta_rocznica_slubu_dziadki/ | grep P1080101
-exit
-unison --help
-unison -ui text
-man unison
-unison /media/Data/Photos/ /mnt/photos/ -ui text
-fg %1
-ping merstzik-pc
-ping 192.168.2.100
-fg %1
-unison /media/Data/Photos/ /mnt/photos/ -ui text
-ls /mnt/photos/segreguj/\[KAMILA\]/inne/
-unison /media/Data/Photos/ /mnt/photos/ -ui text
-unison
-unison --help
-vim /etc/fstab 
-ll /media/Data/Photos/
-ll /mnt/photos/
-ls
-cd Ubuntu\ One/
-ll
-exit
-iwconfig wlan0 up
-ifconfig wlan0 up
-sudo ifconfig wlan0 up
-ifconfig
-rvm -v
-rvm list
-rvm install 1.9.2
-ruby
-rvm
-rvm list
-rvm use
-ruby
-rvm use 1.9.2
-ruby
-ruby eval.rb
-cd .rvm/gems/ruby-1.9.2-p180/
-ll
-find ./ | grep sample
-find ./ | grep eval.rb
-cd ..
-cd krol
-ruby
-exit
-mount -a
-sudo mount -a
-cd /mnt/music/AbraDab/Czerwony\ Album/
-ll
-unison /media/Data/Music/ /mnt/music/
-unison /media/Data/Music/ /mnt/music/ -ui text
-cd /media/Data/Music/
-ll
-mv music/* ./
-l
-rmdir music/
-unison /media/Data/Music/ /mnt/music/ -ui text
-ls /media/Data/Music/Wolfgang\ Amadeusz\ Mozart/Tworca\ Przebojow/
-unison /media/Data/Music/ /mnt/music/ -ui text
-mount -a
-sudo mount -a
-mkdir /mnt/documents
-sudo mkdir /mnt/documents
 sudo mount -a
 cd smb://192.168.2.100/
 sudo mount -a
@@ -1771,4 +1570,431 @@ ll ../
 ll ../configs_bak/
 cp unison/ ../configs_bak/.unison -R
 gvim test
+exit
+cd /home/merstzik/.configs/vim/
+ll
+git submodule add --help
+git submodule add --help https://github.com/shemerey/vim-project.git bundle/project
+git submodule add https://github.com/shemerey/vim-project.git bundle/project
+ll bundle/
+ll bundle/project/
+ll bundle/surround/
+ll bundle/rails/
+git submodule init
+git submodule update
+git submodule
+ll bundle/nerd-tree/
+ll bundle/rails/
+git status
+git branch
+git checkout master
+git status
+git branch
+ls autoload/
+gvim vimrc 
+vim test
+ll bundle/
+ll bundle/rails/
+cd ../..
+ll
+ll .vim
+cat .viminfo
+clear
+cd .configs/
+ll
+gvim linker.rb 
+ruby linker.rb
+cd ..
+ll
+gvim test
+ll configs_bak/
+cd .configs
+ll
+cd vim
+l
+gvim vimrc
+git status
+ll
+git submodule 
+git submodule --help
+git checkout master
+git status
+git ..
+cd ..
+cd vim
+git branch
+git status
+got commit -am "updated vimrc config"
+git commit -am "updated vimrc config"
+git push
+cd ..
+git status
+git add linker.rb
+git status
+git commit -m 'fixed linker by adding a vim directory'
+git push
+git status
+git pull
+git submodule update
+git submodule
+cd vim
+git submodule
+git submodule init
+git submodule update
+gvim vimrc 
+ll
+gvim .gitmodules 
+git status
+git branch
+git checkout master
+git status
+git submodules
+git submodule
+git status
+git submodule init
+git submodule update
+ll bundle/nerd-tree/
+cd ../..
+cd .configs
+ll
+git status
+git submodule
+git submodule update
+vf bim
+vf vim
+cd vim
+ll
+git status
+git checkout master
+git status
+git push
+git commit -am 'added project plugin and updated vimrc'
+git submodule
+git status
+gvim .git/config 
+git status
+git submodule
+git submodule status
+git HEAD
+git status HEAD^
+git status HEAD
+git status
+cat .gitmodules 
+cat .git
+cat .git/config 
+git ls-files --stage
+git status
+git add bundle/*
+git status
+git add bundle/nerd-tree/
+git status
+git reset HEAD^
+git status
+git submodule
+l bundle/
+l bundle/project/
+cat README 
+git pull
+git diff
+cat .gitmodules 
+rm .gitmodules 
+git pull
+git status
+git merge
+git fetch
+git branch
+git status
+l
+git diff
+git diff vim
+git diff vimrc
+git status
+git pull
+git checkout HEAD
+git status
+git pull
+git checkout HEAD^
+git status
+git pull
+cd ..
+git status
+git submodule update
+cd vim
+git status
+cd ..
+git status
+git checkout vim
+git status
+git submodule
+git submodule status
+git submodule update
+git submodule --help
+git submodule reset
+git submodule vim
+git submodule vim reset
+cd vim
+git pull
+git checkout -b master
+checkout master
+git checkout master
+git pull
+git list
+git list bisect
+git rev-list
+git status --graph
+git show --branch
+git show --graph
+git pull
+cd ..
+rm -R vi
+rm -R vim
+rm -fR vim
+git submodule update
+cd vim
+ll
+git statu
+git status
+git branch
+git checkout master
+git status
+ll
+git checkout -b add_submodule
+ll bundle/
+git submodule
+git submodule update
+git status
+cd ../
+git status
+git branch
+git show --graph
+git checkout -b vim_submodule
+git status
+git add vim
+git status
+git commit -m 'added submodule vim'
+git status
+git update
+git push
+git branch
+git remote
+git remote --help
+git remote show origin
+git push origin vim_submodule
+git status
+git remote show origin
+git checkout master
+git status
+git merge --help
+git merge vim_submodule
+git status
+git commit
+git push
+cd ..
+rvm
+rvm list
+rvm install 1.8.6
+rvm gemset opengl
+rvm gemset create opengl
+rvm gemset use opengl
+gem install bundler
+gem install ruby-opengl
+l
+ll
+l
+l /
+l /media/
+l /mnt
+cd /mnt
+cd projekty/
+cd opengl/
+l
+cd gosu-opengl-tutorials
+l
+bundle install
+gem install gosu
+sudo apt-get install g++ libgl1-mesa-dev libpango1.0-dev libboost-dev libsdl-mixer1.2-dev libsdl-ttf2.0-dev libfreeimage3 libfreeimage-dev ruby1.8-dev rubygems
+sudo apt-get install gosu
+bundle install
+cd ../../
+l
+cd ruby_test/
+rvm list
+l
+cd rails/
+l
+cd exercising/
+l
+heroku
+gem lsit
+gem list
+rvm gemset list
+rvm list
+rvm gemset usee global
+rvm gemset use global
+gem list
+gem install rails
+gem install heroku
+gem install haml
+gem install sqlite-ruby
+l
+gvim Gemfile
+l app/controllers/
+gem install sqlite3-ruby
+ll
+rails s
+gem install rake
+bundle install
+rails s
+cd log/
+l
+ll
+chmod 0666 development.log 
+sudo chmod 0666 development.log 
+cd ..
+rm public/index.html 
+cd ..
+cd exercising/
+rake routes
+rails s
+l
+cd ..
+l
+gem list
+gem remove rake
+gem --help
+gem help install
+gem uninstall rake
+rake routes
+cd exercising/
+rake routes
+gem list
+chmod 0666 Gemfile
+sudo chmod 0666 Gemfile
+gvim Gemfile
+cd ..
+rvm
+rvm lsit
+rvm list
+rvm uninstall 1.9.2
+rvm list
+rvm install 1.9.2
+rvm gemset create primary
+rvm gemset global
+rvm gemset use global
+rvm list
+gem install bundler rake
+gem list
+rvm gemset use primary
+gem list
+rvm gemset global
+rvm gemset use global
+gem uninstall *
+gem help uninstall
+gem uninstall rails
+gem list
+gem uninstall --a --ignore-dependencies .+
+gem uninstall --a --ignore-dependencies
+gem uninstall --a --ignore-dependencies .*
+gem list
+gem list -d
+gvim remove_gems
+chmod +x remove_gems 
+sudo chmod +x remove_gems 
+./remove_gems 
+gem list
+./remove_gems 
+gem list
+rvm gemset list
+rvm gemset use global
+gem list
+gem install rake bundler
+rvm gemset use primary
+gem list
+gem install rails
+rails --help
+rails new status
+rm -r status/
+rm -rf status/
+cd ..
+sudo chmod 777 rails
+cd rails
+l
+ll
+rails new status
+rm -rf status
+sudo rails new status
+cd stat
+cd status/
+l
+ll
+rails s
+gvim Gemfile 
+sudo gvim Gemfile 
+gem install heroku
+bundle install
+git init
+rails s
+git add .
+git commit -m 'initial commit'
+heroku create
+git remote show heroku
+git push heroku master
+rails g controller -help
+rails g controller --help
+l
+ll
+gvim README 
+sudo gvim README 
+mv README README.rdoc
+heroku open
+git config --global user.name "Pjurczynski"
+git remote add origin git@github.com:pjurczynski/self-improvment.git
+git show remote
+git show
+git remote show
+git push origin master
+git status
+git add README.rdoc
+git status
+git add .
+git status
+git add README
+git status
+git push origin master
+git commit -m "improved README file"
+sudo git commit -m "improved README file"
+git push origin master
+sudo git push origin master
+gvim README.rdoc
+sudo gvim README.rdoc
+sudo git add .
+sudo git commit -m 'improved README'
+git push origin master
+git status
+git commit -a
+sudo git commit -a
+git push origin master
+sudo gvim README.rdoc 
+git status
+git add .
+sudo git commit -m 'Updated README'
+git push origin master
+l
+cd test/
+l
+rails g --help
+rails g controller --help
+rails g controller User add get index -e haml
+sudo rails destroy controller
+sudo rails g controller User add get index -e haml
+bundle install
+sudo rails g controller User add get index -e haml
+l
+ll
+cd ..
+chmod -R 777 test
+sudo chmod -R 777 test
+cd test/
+sudo rails g controller User add get index -e haml
+rails g controller User add get index -e haml
 exit
