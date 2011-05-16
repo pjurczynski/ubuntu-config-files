@@ -1,0 +1,2 @@
+Clone this repository to your home dir and rename it to ".configs". Then add all symbolic links to the configs in this dir
+ex. ln -s ~/.configs/vim/vim ~/.vim
