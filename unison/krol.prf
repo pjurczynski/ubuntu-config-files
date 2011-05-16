@@ -1,0 +1,14 @@
+root = /home/krol/Documents
+root = /mnt/documents
+
+include common
+
+ignore = Path backup
+ignore = Path Enso*
+ignore = Path Kamila
+ignore = Path logi
+ignore = Path My *
+ignore = Path NPS
+ignore = Path Shared
+ignore = Name maile.txt
+ignore = Name *.ini

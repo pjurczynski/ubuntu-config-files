@@ -1,0 +1,6 @@
+root = /home/krolowa/Documents/
+root = /mnt/documents/
+
+path = Kamila
+
+include common

@@ -1,0 +1,4 @@
+root = /media/Data/Photos/
+root = /mnt/photos
+
+include common

@@ -1,0 +1,3 @@
+root = /home/krol/test
+root = /mnt/music/test
+include common

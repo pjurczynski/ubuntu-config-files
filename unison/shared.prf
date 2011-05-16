@@ -1,0 +1,6 @@
+root = /media/Data/Shared
+root = /mnt/documents/
+
+path = Shared
+
+include common

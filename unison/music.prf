@@ -1,0 +1,3 @@
+root = /media/Data/Music
+root = /mnt/music
+include common

@@ -1,0 +1,11 @@
+addprefsto = common
+ignore = Name .*~
+ignore = Name *.tmp
+ignore = Name *.dll
+ignore = Name Thumbs.db
+ignore = Name *.swp
+times=false
+owner=false
+group=false
+perms=0
+dontchmod=true
