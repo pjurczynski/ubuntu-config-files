@@ -1,1 +1,4 @@
+unison/*
+!unison/*.prf
+!unison.common
 *.swp
