@@ -1,2 +1,4 @@
 Clone this repository to your home dir and rename it to ".configs". Then add all symbolic links to the configs in this dir
 ex. ln -s ~/.configs/vim/vim ~/.vim
+
+Alternatively you can use linker.rb script (ruby linker.rb) - it creates all the files automaticly and also backs up your original configs in a ~/config_bak directory
