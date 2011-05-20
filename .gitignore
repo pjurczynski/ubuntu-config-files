@@ -2,3 +2,4 @@ unison/*
 !unison/*.prf
 !unison.common
 *.swp
+bash_hist*
