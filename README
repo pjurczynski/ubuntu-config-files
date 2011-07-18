@@ -2,3 +2,8 @@ Clone this repository to your home dir and rename it to ".configs". Then add all
 ex. ln -s ~/.configs/vim/vim ~/.vim
 
 Alternatively you can use linker.rb script (ruby linker.rb) - it creates all the files automaticly and also backs up your original configs in a ~/config_bak directory
+
+to initiate plugin and pull it from server use
+	git submodule init
+	git submodule update
+Currently vim is configured with submodules
